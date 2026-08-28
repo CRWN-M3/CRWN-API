@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-res.send("AI Agent is running");
+res.send("X402 home page");
 });
 
 app.get("/test-api", async (req, res) => {
